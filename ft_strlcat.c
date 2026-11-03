@@ -6,7 +6,7 @@
 /*   By: jeguiber <jeguiber@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/21 13:20:11 by jeguiber          #+#    #+#             */
-/*   Updated: 2026/10/27 11:27:05 by jeguiber         ###   ########.fr       */
+/*   Updated: 2026/11/02 14:19:30 by jeguiber         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,9 +44,9 @@ size_t	ft_strlcat(char *dest, const char *src, size_t size)
 // 	char	dest3[50] = "Hi\0Hi";
 // 	char	dest4[50] = "Hi\0Hi";
 
-// 	printf("ma ft   : %ld\n", ft_strlcat(dest, "World!", 80));
+// 	printf("ma ft   : %ld\n", ft_strlcat(dest, "World!", 9));
 // 	printf("str     : %s\n", dest);
-// 	printf("vrai ft : %ld\n", strlcat(dest2, "World!", 80));
+// 	printf("vrai ft : %ld\n", strlcat(dest2, "World!", 9));
 // 	printf("str     : %s\n\n", dest2);
 // 	printf("ma ft   : %ld\n", ft_strlcat(dest3, "Longtest", 80));
 // 	printf("str     : %s\n", dest3);

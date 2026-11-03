@@ -6,7 +6,7 @@
 /*   By: jeguiber <jeguiber@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/22 15:10:18 by jeguiber          #+#    #+#             */
-/*   Updated: 2026/10/29 15:27:47 by jeguiber         ###   ########.fr       */
+/*   Updated: 2026/11/03 09:51:47 by jeguiber         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,9 +25,8 @@ char	*ft_strnstr(const char *big, const char *little, size_t len)
 	while (i < len && big[i])
 	{
 		j = 0;
-		while (j < len - i && big[i + j] && little[j]
-				&& big[i + j] == little[j])
-		j++;
+		while ((i + j) < len && little[j] && big[i + j] == little[j])
+			j++;
 		if (little[j] == '\0')
 			return ((char *) big + i);
 		i++;
